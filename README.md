@@ -9,6 +9,10 @@ LiDAR Perception & Obstacle Avoidance in ROS 2
 
 2. **Run Carla sensor Node**:
    ```bash
+   git clone https://github.com/thuvaragak/carla_project.git
+   cd carla_project
+   colcon build
+   . install/setup.bash
    ros2 run carla_vehicle carla_sensor
    ```
 
